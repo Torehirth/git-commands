@@ -18,7 +18,7 @@ Created as a checklist whenever the commands are forgotten
   <li>commit changes (with message):</li>
 
   ```HTML
-  git commit -m "<message>"
+  git commit -m "<"message">"
   ```
 </ol>
 
