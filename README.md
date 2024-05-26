@@ -3,13 +3,7 @@ Created as a checklist whenever the commands are forgotten
 
 ### Often used:
 <ol>
-  <li>Creating JSON package:</li>
-
-   ```HTML
-  npm init
-  ```
-
-  <li>Stage changes:</li>
+ <li>Stage changes:</li>
   
   ```HTML
   git add . 
@@ -20,6 +14,18 @@ Created as a checklist whenever the commands are forgotten
   ```HTML
   git commit -m "<"message">"
   ```
+
+  <li>push to remote:</li>
+
+   ```HTML
+   git push
+   ```
+
+<li>Push new local branch to remote:</li>
+
+   ```HTML
+   git push -u origin <"branch name">
+   ```
 </ol>
 
 
