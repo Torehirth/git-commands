@@ -12,7 +12,7 @@ Created as a checklist whenever the commands are forgotten
   <li>commit changes (with message):</li>
 
   ```HTML
-  git commit -m "<"message">"
+  git commit -m "message"
   ```
 
   <li>push to remote:</li>
@@ -24,7 +24,7 @@ Created as a checklist whenever the commands are forgotten
 <li>Push new local branch to remote:</li>
 
    ```HTML
-   git push -u origin <"branch name">
+   git push -u origin "branch name"
    ```
 </ol>
 
@@ -34,19 +34,19 @@ Created as a checklist whenever the commands are forgotten
   <li>Create branch:</li>
 
    ```HTML
-  git branch <"branch name">
+  git branch "branch name"
   ```
 
   <li>Navigate branches:</li>
 
    ```HTML
-  git checkout <"branch name">
+  git checkout "branch name"
   ```
 
   <li>Create new branch and move to that branch:</li>
 
    ```HTML
-  git checkout -b <"branch name">
+  git checkout -b "branch name"
   ```
 
   <li>View all branches (local and remote):</li>
@@ -58,7 +58,7 @@ Created as a checklist whenever the commands are forgotten
   <li>Delete local branch</li>
   
   ```HTML
-  git branch -d <"branch name"> 
+  git branch -d "branch name" 
   ```
   
   <li>Delete branch(es) that's already deleted on Github, but still appears as a remote branch</li>
