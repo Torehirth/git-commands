@@ -37,7 +37,7 @@ Created as a checklist whenever the commands are forgotten
   git branch <"branch name">
   ```
 
-  <li>Change branch:</li>
+  <li>Navigate branches:</li>
 
    ```HTML
   git checkout <"branch name">
@@ -61,7 +61,7 @@ Created as a checklist whenever the commands are forgotten
   git branch -d <"branch name"> 
   ```
   
-  <li>Delete branch(es) that's already deleted on Github, but still appears as remote in editor(repo)</li>
+  <li>Delete branch(es) that's already deleted on Github, but still appears as a remote branch</li>
 
   ```HTML
   git fetch --prune
