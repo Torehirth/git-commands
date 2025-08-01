@@ -67,3 +67,34 @@ Created as a checklist whenever the commands are forgotten
   git fetch --prune
   ```
 </ol>
+
+### Remove folders and files from Git tracking:
+
+Example: If node_modules is not added to .gitignore and you push changes to remote repo, node_modules gets pushed to repo. 
+This folder needs to be removed from Git's tracking system.
+
+<ol>
+ <li>Remove folder/file from Git tracking:</li>
+  
+  ```HTML
+  git rm -r --cached node_modules
+  ```
+  
+  <li>Stage changes:</li>
+
+  ```HTML
+  git add .gitignore
+  ```
+
+  <li>Commit changes (w/message)</li>
+
+   ```HTML
+   git commit -m "Update gitignore and remove node_modules"
+   ```
+
+<li>Push new local branch to remote:</li>
+
+   ```HTML
+   git rm -r --cached node_modules
+   ```
+</ol>
